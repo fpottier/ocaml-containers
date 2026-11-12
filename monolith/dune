@@ -1,0 +1,5 @@
+(executable
+  (name test)
+  (libraries monolith containers-data)
+  (enabled_if (= %{profile} dev))
+)
